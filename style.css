@@ -25,7 +25,7 @@ main {
 
 .img{
     height: 71%;
-    width: 30%;
+    width: 27.28%;
     z-index: 2;
     background-image: url(assets/IMG_7607\ 2.jpeg);
     background-size: contain;
@@ -37,8 +37,8 @@ main {
 }
 .img:hover{
     box-shadow: 
-        10px 0px 20px 0px #333,  
-        5px -10px 15px -5px #333; 
+        10px 0px 20px 0px #333333f9,  
+        5px -10px 15px -5px #2b2a2a; 
 }        
 .content{
     height: 80%;
@@ -86,7 +86,7 @@ main {
     color: #fff;
     background-color: transparent;
 }
-.content span{
+.resume{
     background-color: #ffc107;
     border-radius: 50%;
     padding: 0.80rem 1.2rem ;
@@ -155,4 +155,7 @@ main {
 }
 a:visited, a:hover, a:link {
     color: #fff;
+}
+.typed-cursor{
+    display: none;
 }

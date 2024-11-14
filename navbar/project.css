@@ -27,6 +27,9 @@ main{
 .projects{
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    height: 30%;
+    background-color: red;
 }
 #lang{
     display: flex;
@@ -41,14 +44,13 @@ main{
     color: #fff;
 }
 .projects div{
-    background-color: #252525;
+    background: linear-gradient(#252525, #000000);
     margin: 20px 0 20px 20px;
     padding: 5px;
     border-radius: 30px;
-    /* transition: box-shadow 0.3s ease; */
 }
 .projects .p:hover{
-    box-shadow: 0px 4px 12px rgba(211, 211, 211, 0.5);
+    box-shadow: 0px 4px 12px rgba(76, 76, 76, 0.5);
 }
 #project-image1{
     background-image: url(projects/Image\ 14-11-24\ at\ 8.03\ PM.jpg);
