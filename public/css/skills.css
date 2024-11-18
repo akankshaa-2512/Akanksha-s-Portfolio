@@ -11,7 +11,7 @@ main{
     color: #fff;
     display: flex;
     flex-direction: column;
-    height: 190vh;
+    height: 150vh;
     width: 100vw;
 }
 #heading{
