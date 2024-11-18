@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    background-color: #111;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+/* Styling for the navbar */
+.nav-bar {
+    position: fixed;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Common styling for each icon link */
+.nav-bar .icon {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+/* Styling for the circular icon */
+.nav-bar .icon .icons {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 1.3rem;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+/* Styling for the hidden text */
+.nav-bar .icon .hide {
+    position: absolute;
+    left: 25px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: #ffc107;
+    border-radius: 50px 0 0 50px;
+    padding: 0.5rem 2rem 0.4rem 1.3rem;
+    z-index: 0;
+}
+
+/* Hover effect */
+.nav-bar .icon:hover .hide {
+    opacity: 1;
+    transform: translateX(-100%);
+}
+
+.nav-bar .icon:hover .icons {
+    background-color: #ffc107;
+}
+a:visited, a:hover, a:link {
+    color: #fff;
+}
