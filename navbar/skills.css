@@ -18,7 +18,27 @@ main{
     font-size: 2rem;
     padding: 3rem 1rem 2rem 1rem;
     text-align: center;
-
+}
+#yellow{
+    color: #ffc107;
+}
+#heading h1{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 6.875rem;
+    line-height: 0.7;
+    position: absolute;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.07);
+}
+#heading h2{
+    font-size: 3.5rem;
+    padding-top: 1.8rem;
+    font-weight: 900;
+    text-align: center;
 }
 .skills{
     display: flex;
@@ -26,6 +46,7 @@ main{
     justify-content: space-evenly;
     width: 55%;
     margin-left: 21rem;
+    margin-top: 1rem;
 }
 #skills-list{
     display: flex;
@@ -42,9 +63,30 @@ main{
     height: 150px;
     width: 150px;
     margin: 0.5rem;
-    border: 0.5rem solid #ffc107;
+    /* border: 0.5rem solid #ffc107; */
     border-radius: 50%;
     margin: 1rem;
+    border: 0.5rem solid transparent;
+}
+#circle::before {
+    content: '';
+    position: absolute;
+    inset: 0; /* Ensures alignment with the circle */
+    border-radius: 50%;
+    background: conic-gradient(
+        #ffc107 calc(var(--percentage) * 1%), /* Progress color */
+        #333 0% /* Remaining background color */
+    );
+    -webkit-mask: radial-gradient(circle, transparent 48%, #000 49%);
+    mask: radial-gradient(circle, transparent 48%, #000 49%);
+}
+
+#circle::after {
+    content: '';
+    position: absolute;
+    inset: 4px; /* Adjusts for inner spacing */
+    border-radius: 50%;
+    background-color: #111; /* Matches the background inside the circle */
 }
 #circle span{
     position: relative;
@@ -54,4 +96,26 @@ main{
 #name{
     margin: 1rem;
     font-size: 1.3rem;
+}
+.logo1{
+    height: 3rem;
+    width: 7rem;
+    margin: 2px 3px 33px 12px;
+    z-index: 1;
+}
+.logo2{
+    height: 5rem;
+    margin: 2px 3px 25px 10px;
+    z-index: 1;
+}
+.logo3{
+    height: 5rem;
+    margin: 2px 3px 25px 10px;
+    z-index: 1;
+}
+.logo4{
+    height: 4rem;
+    width: 6rem;
+    margin: 2px 3px 29px 21px;
+    z-index: 1;
 }

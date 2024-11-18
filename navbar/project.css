@@ -11,15 +11,29 @@ main{
     color: #fff;
     display: flex;
     flex-direction: column;
-    height: 300vh;
+    height: 550vh;
     width: 100vw;
+    padding-left: 3rem;
+}
+.heading h1{
+    width: 100%;
+    margin-top: 3.3rem;
+    margin-left: -1.3rem;
+    text-align: center;
+    font-size: 6.875rem;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.07);
 }
 .heading h2{
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
     color: #fff;
     width: 100%;
     padding: 3rem 1rem 2rem 1rem;
-    text-align: center;
-    font-size: 3rem;
 }
 .heading h2 span {
     color: #ffc107;
@@ -27,9 +41,9 @@ main{
 .projects{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    height: 30%;
-    background-color: red;
+    width: 65%;
+    height: 130%;
+    margin-left: 13rem;
 }
 #lang{
     display: flex;
@@ -55,7 +69,7 @@ main{
 #project-image1{
     background-image: url(projects/Image\ 14-11-24\ at\ 8.03\ PM.jpg);
     background-size: cover;
-    width: 40rem;
+    width: 50rem;
     height: 25rem;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -64,7 +78,7 @@ main{
 #project-image2{
     background-image: url(projects/Screenshot\ 2024-11-14\ at\ 8.04.33\ PM.jpeg);
     background-size: cover;
-    width: 40rem;
+    width: 50rem;
     height: 25rem;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -73,7 +87,7 @@ main{
 #project-image3{
     background-image: url(projects/Screenshot\ 2024-11-14\ at\ 8.10.09\ PM.jpeg);
     background-size: cover;
-    width: 40rem;
+    width: 50rem;
     height: 25rem;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -82,7 +96,7 @@ main{
 #project-image4{
     background-image: url(projects/Image\ 14-11-24\ at\ 8.17\ PM.jpg);
     background-size: cover;
-    width: 40rem;
+    width: 50rem;
     height: 25rem;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -91,7 +105,7 @@ main{
 #project-image5{
     background-image: url(projects/Image\ 14-11-24\ at\ 8.15\ PM.jpg);
     background-size: cover;
-    width: 40rem;
+    width: 50rem;
     height: 25rem;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -100,7 +114,7 @@ main{
 #project-image6{
     background-image: url(projects/Screenshot\ 2024-11-14\ at\ 8.08.13\ PM.jpeg);
     background-size: cover;
-    width: 40rem;
+    width: 50rem;
     height: 25rem;
     margin-right: 20px;
     margin-bottom: 20px;

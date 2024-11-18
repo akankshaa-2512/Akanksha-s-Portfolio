@@ -59,6 +59,7 @@ main {
     text-transform: uppercase;
 }
 .content p{
+    margin-top: 25px;
     color: #fff;
     line-height: 1.5;
     text-align: justify;
@@ -85,6 +86,9 @@ main {
     font-weight: 800;
     color: #fff;
     background-color: transparent;
+}
+.btn:hover{
+    background-color: #ffc107;
 }
 .resume{
     background-color: #ffc107;
@@ -158,4 +162,14 @@ a:visited, a:hover, a:link {
 }
 .typed-cursor{
     display: none;
+}
+.animate {
+    height: 3rem;
+    overflow: hidden;
+}
+#typed-output {
+    display: inline-block;
+    width: 20rem;
+    white-space: nowrap; 
+    line-height: 1.5; 
 }

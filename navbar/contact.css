@@ -17,18 +17,34 @@ main {
 .contact, .form{
     padding: 0.5rem;
 }
+.heading h1{
+    width: 100%;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 6.875rem;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.07);
+}
 .heading h2{
     color: #fff;
     width: 100%;
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 3.3rem 0rem 2rem 2rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    z-index: 1;
+    font-weight: 900;
 }
 .heading h2 span{
     color: #ffc107;
 }
 .content{
     display: flex;
+    width: 80%;
+    margin-left: 6rem;
 }
 .contact{
     display: flex;
@@ -42,6 +58,9 @@ main {
 .contact h3{
     font-size: 1.4rem;
     padding: 2rem 1rem 0 1rem;
+}
+.contact h3:hover{
+    color: #ffc107;
 }
 .contact p{
     font-size: 1.1rem;
@@ -59,6 +78,10 @@ main {
 .contact-info h4{
     margin-left: 15px;
 }
+a:visited{
+    color: #fff;
+    opacity: 0.9;
+}
 #icons{
     display: flex;
     padding: 0 1rem 1rem 1rem ;
@@ -72,9 +95,13 @@ main {
     font-size: 1.5rem;
     opacity: 0.9;
     border-radius: 50%;
-
 }
-main div button{
+#linkedin:hover, #github:hover{
+    background-color: #ffc107;
+    color: #fff;
+    opacity: 1;
+}
+main div .btn{
     border: 1px solid #ffc107;
     border-radius: 2.1875rem;
     line-height: 1.4;
@@ -96,7 +123,10 @@ main div button{
     color: #fff;
     background-color: transparent;
 }
-main div button span{
+.btn:hover{
+    background-color: #ffc107;
+}
+main div .btn span{
     background-color: #ffc107;
     border-radius: 44%;
     padding: 0.80rem 1.2rem ;
@@ -128,20 +158,24 @@ main div button span{
 .form-group1 textarea, .form-group2 textarea, .form-group3 textarea, .form-group4 textarea {
     width: 100%;
     padding: 10px;
-    font-size: 1em;
+    font-size: 1.1em;
     border-radius: 30px;
     outline: none;
     color: white; 
     background-color: #252525;
     height: 60px;
 }
-
+.form-group1 input:focus, .form-group2 input:focus, .form-group3 input:focus, .form-group4 input:focus,
+.form-group1 textarea:focus, .form-group2 textarea:focus, .form-group3 textarea:focus, .form-group4 textarea:focus{
+    font-size: 1.2rem; 
+    outline: none; 
+    transition: font-size 0.2s ease-in-out; 
+}
 .form-group1 input::placeholder, .form-group2 input::placeholder, .form-group3 input::placeholder, .form-group4 input::placeholder, 
 .form-group1 textarea::placeholder, .form-group2 textarea::placeholder, .form-group3 textarea::placeholder, .form-group4 textarea::placeholder {
     color: #fff;
     opacity: 0.8;
-    font-size: 1rem;
-    
+    font-size: 1.1rem;
 }
 .form-group1, .form-group2, .form-group3{
     width: 200px;
@@ -157,4 +191,8 @@ main div button span{
 .form-group4 textarea{
     height: 200px;
     padding: 11px 26px;
+}
+.form-group1:hover, .form-group2:hover, .form-group3:hover{
+    box-shadow: 0px 4px 12px rgba(76, 76, 76, 0.5);
+    border-radius: 30px;
 }
