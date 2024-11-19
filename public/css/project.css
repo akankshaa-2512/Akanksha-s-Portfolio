@@ -6,13 +6,16 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    height: 100%;
+    width: 100vw;
+    background-color: #111;
 }
 main{
     background-color: #111;
     color: #fff;
     display: flex;
     flex-direction: column;
-    height: 650vh;
+    height: 500vh;
     width: 100vw;
     padding-left: 3rem;
 }
