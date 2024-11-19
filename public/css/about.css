@@ -6,6 +6,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    background-color: #111;
+    height: 100%;
+    width: 100vw;
 }
 .heading{
     background-color: #111;
