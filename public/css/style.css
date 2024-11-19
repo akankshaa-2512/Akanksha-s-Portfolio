@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 main {
     background-color: #111;
@@ -21,11 +22,13 @@ main {
     left: -23%;
     top: -30%;
     position: fixed;
+    overflow: hidden;
 }
 
 .img{
     height: 71%;
     width: 27.28%;
+    max-width: 100%;
     z-index: 2;
     background-image: url(/assets/IMG_7607\ 2.jpeg);
     background-size: contain;
@@ -48,6 +51,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    max-width: 100%;
 }
 .content h1{
     color: #ffc107;
@@ -86,6 +90,7 @@ main {
     font-weight: 800;
     color: #fff;
     background-color: transparent;
+    max-width: 100%;
 }
 .btn:hover{
     background-color: #ffc107;
