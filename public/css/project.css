@@ -15,8 +15,8 @@ main{
     color: #fff;
     display: flex;
     flex-direction: column;
-    height: 500vh;
-    width: 100vw;
+    /* height: 500vh;
+    width: 100vw; */
     padding-left: 3rem;
 }
 .heading h1{
