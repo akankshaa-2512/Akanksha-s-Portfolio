@@ -39,20 +39,23 @@
 .heading span{
     color: #ffc107;
 }
-main{
+.about-info{
     background-color: #111;
     height: 80vh;
     width: 100vw;
     display: flex;
 }
-main div{
+.about-info .personal-info, .about-info .personal-info2, .about-info .expro{
     color: #fff;
-    height: 60%;
+    height: 100%;
     width: 27%;
-    margin: 10px 20px 0 10px;
+    margin: 10px 0px 0 20px;
     padding: 2rem 0 3rem 0;
 }
-main h3{
+.about-info .personal-info{
+    margin-left: 4rem;
+}
+.about-info h3{
     overflow: visible;
     color: #fff;
     font-size: 1.625rem;
@@ -106,7 +109,7 @@ main h3{
 .education{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     color: #fff;
     font-family: 'Poppins', sans-serif;
