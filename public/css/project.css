@@ -10,13 +10,13 @@
     width: 100vw;
     background-color: #111;
 }
-main{
+.main{
     background-color: #111;
     color: #fff;
     display: flex;
     flex-direction: column;
-    /* height: 500vh;
-    width: 100vw; */
+    height: 100%;
+    width: 100vw;
     padding-left: 3rem;
 }
 .heading h1{
