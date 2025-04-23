@@ -79,8 +79,8 @@
     margin-bottom: 20px;
     border-radius: 30px;
 }
-#project-image2{
-    background-image: url(/assets/Screenshot\ 2024-11-14\ at\ 8.04.33\ PM.jpeg);
+#project-image2 {
+    background-image: url(/assets/medica.jpeg);
     background-size: cover;
     width: 50rem;
     height: 25rem;
@@ -88,8 +88,8 @@
     margin-bottom: 20px;
     border-radius: 30px;
 }
-#project-image3{
-    background-image: url(/assets/Screenshot\ 2024-11-14\ at\ 8.10.09\ PM.jpeg);
+#project-image3 {
+    background-image: url(/assets/vibely.jpeg);
     background-size: cover;
     width: 50rem;
     height: 25rem;
@@ -98,7 +98,7 @@
     border-radius: 30px;
 }
 #project-image4{
-    background-image: url(/assets/Image\ 14-11-24\ at\ 8.17\ PM.jpg);
+    background-image: url(/assets/Screenshot\ 2024-11-14\ at\ 8.04.33\ PM.jpeg);
     background-size: cover;
     width: 50rem;
     height: 25rem;
@@ -107,7 +107,7 @@
     border-radius: 30px;
 }
 #project-image5{
-    background-image: url(/assets/Image\ 14-11-24\ at\ 8.15\ PM.jpg);
+    background-image: url(/assets/Screenshot\ 2024-11-14\ at\ 8.10.09\ PM.jpeg);
     background-size: cover;
     width: 50rem;
     height: 25rem;
@@ -116,6 +116,24 @@
     border-radius: 30px;
 }
 #project-image6{
+    background-image: url(/assets/Image\ 14-11-24\ at\ 8.17\ PM.jpg);
+    background-size: cover;
+    width: 50rem;
+    height: 25rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+#project-image7{
+    background-image: url(/assets/Image\ 14-11-24\ at\ 8.15\ PM.jpg);
+    background-size: cover;
+    width: 50rem;
+    height: 25rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+#project-image8{
     background-image: url(/assets/Screenshot\ 2024-11-14\ at\ 8.08.13\ PM.jpeg);
     background-size: cover;
     width: 50rem;
